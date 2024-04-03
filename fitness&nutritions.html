@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIAMOND FITNESS NUTRITIONS</title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="head-container">
+        <div class="logo">
+    <img src="images/diamond.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#scroll_services">Training</a></li>
+                <li><a href="#scroll_contact">Contact</a></li>
+                <li><a href="#scroll_AboutUs">About Us</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/4.jpg" style="width: 100%;">
+          <div class="text">Motivation is what gets you started.</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/5.jpg" style="width:100%">
+          <div class="text">“No pain, no gain”</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/6.jpg" style="width:100%">
+          <div class="text">“Fitness is 30% Gym, 70% Nutrition”</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        
+    <h1 id="scroll_services">Training</h1>
+        <div class="box" data-aos="fade-left">
+            <img src="images/3d912ac56c32df8d07b644d906237853.jpg" id="training_img" alt=""  height="200px" width="300px">
+           <h2 id="cer">certified</h2>
+            <p id ="our">Our certified personal trainers creat the perfect programs to 
+                help you reach yours goals, designed 100% around you. </p>
+        </div>
+        <div class="box" data-aos="fade-down">
+            <img src="images/4ddb136fa723f55ce3b7bcb20f8f0f42.jpg" alt=""  height="200px" width="300px">
+            <h2 id="dia">It's Diamond Time</h2>
+            <p id="diapar">
+                Our DIAMOND FITNESS NUTRITIONS locations offer powerplate,  Come check it our 
+                for yourself!
+            </p>
+        </div>
+        <div id="fitness">
+            <div class="box" data-aos="fade-left">
+                <img src="images/7.jpg" alt=""  height="200px" width="300px">
+                <h2 id="fit">Fitness</h2>
+                <p id="fitpar">People go to the gym to keep themselves fit. 
+                    Working out is good for both physical and emotional health. If a person has a strong and healthy body, he/she feels satisfied and happy.
+                </p>
+            </div>
+            <h1 id="scroll_AboutUs">AboutUS</h1>
+            <div class="about" data-aos="fade-left">
+            <img src="images/6.jpg" alt=""  height="200px" width="300px" text="center">
+            <p>A gym is a place where people go to train and exercise, but also to unwind, socialize, and recharge. Therefore, a good gym is a facility that promotes physical activity, provides a safe, functional, and comfortable workout environment,
+                and creates a pleasant and enjoyable atmosphere for recreation and socialization.</p>
+         resistance bands, and other equipment for strength training.</p>
+            </div>
+
+    <h1 id="scroll_contact" style="font-size: 30px;font-size: 50px;">Contact</h1>
+    <div id="contact">
+        <form method="post" action="">
+           
+            <label for="name" style="color:black">Name:</label>
+            <input type="text" id="name2" name="name2" placeholder="Enter your name" pattern="[a-zA-Z]{2,15}" required title="Enter valid name">
+            <label for="email" style="color:rgb(8, 8, 8)">Email:</label>
+            <input type="email" id="email2" name="email2" placeholder="Enter your email" pattern="[a-zA-Z0-9$%&*]+@[a-z]+.[a-z]{3,10}" title="Invalid Email...!!">
+            <label for="phone" style="color:rgb(6, 6, 6)">Phone Number:</label>
+            <input type="phone" id="phone2" name="phone2" placeholder="Enter your phone" pattern="^[6-9]{1}[0-9]{9}$" title="Enter valid Phone_number">
+            
+            <br><br>
+            <button type="submit" class="btn btn-primary" class="center">SUBMIT</button>
+        </form>
+    </div>
+    
+    <footer>
+
+        <div class="col-md-4">
+            <h3 class="display-6" data-aos="fade-up" data-aos-delay="50"><br>Address</h3>
+            <p class="text-muted" data-aos="fade-up" data-aos-delay="100">
+                No 552,senthil complex surya nager,<br>Alagar kovil
+                Main Rd, Madurain, TamilNadu 625007<br>
+                Cell: +91-09585121321<br></p>
+                <br><br>
+        <div>
+           @ Copyright BY diamond fitness & nutritions
+
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
